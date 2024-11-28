@@ -1,0 +1,74 @@
+nav{
+  padding: 20px;
+  background-color: orange;
+}
+
+button{
+  padding: 10px;
+  margin: 10px;
+}
+
+#hero{
+  /* background-image: url('https://i0.wp.com/muditaskitchen.com/wp-content/uploads/2020/06/DSC_8540-scaled.jpg'); */
+  background-image: url('./kulcha.webp');
+  background-position: center;
+  min-height: 600px;
+  background-size: cover;
+}
+
+#about, #special{
+  text-align: center;
+  padding: 20px;
+  margin: 20px 0;
+}
+
+#about h1, #special h1, #producthead{
+  padding: 20px;
+  text-transform: uppercase;
+  font-size: 50px;
+  font-family: cursive;
+  text-decoration: underline 10px solid orange;
+  text-underline-offset: 10px;
+}
+
+#about p, #special p{
+  text-align: justify;
+}
+
+footer{
+  background-color: orange;
+  padding: 20px;
+  text-align: center;
+}
+
+.hm{
+  text-align: center;
+  padding: 50px;
+  background-image: linear-gradient(120deg,yellow,orange,darkorange,red);
+  font-size: 50px;
+}
+
+nav{
+  text-align: center;
+
+}
+
+#products{
+  text-align: center;
+  padding: 10px;
+}
+
+.card{
+  max-width: 25%;
+  padding: 10px;
+  background-color: #eee;
+  border: 3px solid silver;
+  border-radius: 10px;
+  text-align: center;
+  margin: 10px;
+  display: inline-block;
+}
+
+.card img{
+  max-width: 100%;
+}
